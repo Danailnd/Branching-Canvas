@@ -8,6 +8,7 @@ let maxBranchLengthHigh = 50
 let minRootLength = 10
 let rootCount = 12
 let branchIterations = 3
+let branchStrokeWeight = 0.9
 
 function setup() {
   createCanvas(windowWidth, windowHeight + canvasExtraHeight)
@@ -28,7 +29,7 @@ function mouseDragged() {
 }
 
 function drawRoots(x, y) {
-  strokeWeight(0.7) // Thin lines for roots
+  strokeWeight(branchStrokeWeight) // Thin lines for roots
   stroke(0) // Black color
 
   let numRoots = rootCount
