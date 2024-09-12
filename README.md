@@ -28,3 +28,4 @@ You can find these variables at the top of app.js:
 - `rootCount`: Controls how many roots are drawn at each mouse interaction
 
 ### Preview
+![BrancingCanvas 2](https://github.com/user-attachments/assets/4eda4ba9-9d7d-4576-8d17-74a6785ea722)
