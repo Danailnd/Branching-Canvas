@@ -9,9 +9,10 @@ A canvas where a root-like effect is drawn on the screen as the mouse moves. The
 - Interactive drawing triggered by mouse movement
 
 ### How to run
-1. Install dependencies: `npm i`
-2. Start the development server: `npm run start`
-3. Open `http://localhost:3000` in your browser
+1. Download [p5.min.js](https://p5js.org/download/) and add it to your root folder (the same directory as index.html)
+2. Install dependencies: `npm i`
+3. Start the development server: `npm run start`
+4. Open `http://localhost:3000` in your browser
 
 ### Dependencies
 - [p5.js](https://p5js.org/)
