@@ -16,6 +16,7 @@ A canvas where a root-like effect is drawn on the screen as the mouse moves. The
 
 ### Dependencies
 - [p5.js](https://p5js.org/)
+- (serve)[https://www.npmjs.com/package/serve]
 
 ### Customizations
 You can find these variables at the top of app.js:
