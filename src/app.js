@@ -1,5 +1,4 @@
 //canvas settings
-let canvasExtraHeight = 1500
 let customFrameRate = 3
 let maxFade = 7
 //branch creation
@@ -11,7 +10,10 @@ let branchIterations = 3
 let branchStrokeWeight = 0.9
 
 function setup() {
-  createCanvas(windowWidth, windowHeight + canvasExtraHeight)
+  canvasContainer = document.querySelector('.canvas-container') // Get the canvas container
+  let containerWidth = canvasContainer.offsetWidth
+  let containerHeight = canvasContainer.offsetHeight
+  createCanvas(containerWidth, containerHeight)
   background(255) //white
   frameRate(customFrameRate)
 }
@@ -74,5 +76,8 @@ function drawBranch(x, y, angle, length, depth) {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight + canvasExtraHeight)
+  canvasContainer = document.querySelector('.canvas-container') // Get the canvas container
+  let containerWidth = canvasContainer.offsetWidth
+  let containerHeight = canvasContainer.offsetHeight
+  resizeCanvas(containerWidth, containerHeight)
 }

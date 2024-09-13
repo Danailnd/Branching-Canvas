@@ -32,11 +32,14 @@ canvas {
   z-index: 10; /* Higher value to ensure it is on top */
 }
 
-/* html,
-body {
-  overflow: auto; 
-  scrollbar-width: none; 
-} */
+.canvas-container {
+  height: calc(
+    100vh + 600px
+  ); /* Full height minus the summary-section height */
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
 
 body::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
